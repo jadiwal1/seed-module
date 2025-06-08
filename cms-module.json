@@ -87,7 +87,7 @@
         "module_path": "/currency",
         "module_icon": "stats-icon",
         "module_order": 1,
-        "is_generic": false,
+        "is_generic": true,
         "is_cinema": false,
         "is_role": true,
         "is_user": true,

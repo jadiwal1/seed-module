@@ -11,7 +11,6 @@ async function seed() {
     const existingModule = await prisma.module.findFirst({
       where: {
         module_path: moduleData.module_path,
-        is_generic: moduleData.is_generic,
       },
     });
 
@@ -64,8 +63,7 @@ async function seed() {
       for (const sub of sub_modules) {
         const existingSub = await prisma.module.findFirst({
           where: {
-            module_path: sub.module_path,
-            is_generic: sub.is_generic,
+            module_path: sub.module_path
           },
         });
 
