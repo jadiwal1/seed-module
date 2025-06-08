@@ -1,0 +1,102 @@
+[
+  {
+    "module_name": "Dashboards",
+    "module_type": "main",
+    "module_path": "/dashboard",
+    "module_icon": "dashboard-icon",
+    "module_order": 1,
+    "is_generic": false,
+    "is_cinema": false,
+    "is_role": true,
+    "is_user": true,
+    "is_active": true,
+    "is_deleted": false,
+    "created_by": 1,
+    "created_at": "2024-01-01T00:00:00Z",
+    "updated_at": "2024-01-01T00:00:00Z",
+    "sub_modules": [
+      {
+        "module_name": "User",
+        "module_type": "sub",
+        "module_path": "/dashboard/user-stats",
+        "module_icon": "stats-icon",
+        "module_order": 1,
+        "is_generic": false,
+        "is_cinema": false,
+        "is_role": true,
+        "is_user": true,
+        "is_active": true,
+        "is_deleted": false,
+        "created_by": 1,
+        "created_at": "2024-01-01T00:00:00Z",
+        "updated_at": "2024-01-01T00:00:00Z"
+      },
+      {
+        "module_name": "Role Update",
+        "module_type": "sub",
+        "module_path": "/dashboard/user-role",
+        "module_icon": "stats-icon",
+        "module_order": 1,
+        "is_generic": false,
+        "is_cinema": false,
+        "is_role": true,
+        "is_user": true,
+        "is_active": true,
+        "is_deleted": false,
+        "created_by": 1,
+        "created_at": "2024-01-01T00:00:00Z",
+        "updated_at": "2024-01-01T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "module_name": "Setting",
+    "module_type": "main",
+    "module_path": "",
+    "module_icon": "dashboard-icon",
+    "module_order": 1,
+    "is_generic": false,
+    "is_cinema": false,
+    "is_role": true,
+    "is_user": true,
+    "is_active": true,
+    "is_deleted": false,
+    "created_by": 1,
+    "created_at": "2024-01-01T00:00:00Z",
+    "updated_at": "2024-01-01T00:00:00Z",
+    "sub_modules": [
+      {
+        "module_name": "Rating",
+        "module_type": "sub",
+        "module_path": "/Rating",
+        "module_icon": "stats-icon",
+        "module_order": 1,
+        "is_generic": false,
+        "is_cinema": false,
+        "is_role": true,
+        "is_user": true,
+        "is_active": true,
+        "is_deleted": false,
+        "created_by": 1,
+        "created_at": "2024-01-01T00:00:00Z",
+        "updated_at": "2024-01-01T00:00:00Z"
+      },
+      {
+        "module_name": "Currency",
+        "module_type": "sub",
+        "module_path": "/currency",
+        "module_icon": "stats-icon",
+        "module_order": 1,
+        "is_generic": false,
+        "is_cinema": false,
+        "is_role": true,
+        "is_user": true,
+        "is_active": true,
+        "is_deleted": false,
+        "created_by": 1,
+        "created_at": "2024-01-01T00:00:00Z",
+        "updated_at": "2024-01-01T00:00:00Z"
+      }
+    ]
+  }
+]

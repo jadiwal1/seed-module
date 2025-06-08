@@ -1,0 +1,28 @@
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model module {
+  module_id      Int      @id @default(autoincrement())
+  module_name    String
+  module_type    String
+  module_path    String?
+  module_icon    String?
+  menu_module_id Int?
+  module_order   Int?
+  is_generic     Boolean  @default(false)
+  is_cinema      Boolean  @default(false)
+  is_role        Boolean  @default(false)
+  is_user        Boolean  @default(false)
+  is_active      Boolean  @default(true)
+  is_deleted     Boolean  @default(false)
+  created_by     Int
+  updated_by     Int?
+  created_at     DateTime @default(now())
+  updated_at     DateTime @default(now())
+}
